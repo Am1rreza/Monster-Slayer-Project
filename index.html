@@ -34,7 +34,7 @@
         <button @click="specialAttackMonster" :disabled="mayUseSpecialAttack">
           SPECIAL ATTACK
         </button>
-        <button>HEAL</button>
+        <button @click="healPlayer" :disabled="mayUseHeal">HEAL</button>
         <button>SURRENDER</button>
       </section>
       <section id="log" class="container">
